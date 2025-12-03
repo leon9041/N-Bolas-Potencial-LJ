@@ -2,7 +2,7 @@
  * @file     bola.cpp
  * @brief    simulacion de Bola en caja con Velocity Verlet
  * @author   Angie Gomez, Leonardo Tovar
- * @date     29/10/25
+ * @date     02/12/25
  * @version  1.0
  * @license  owner
  */
@@ -154,4 +154,5 @@ bool Bola::reboteParedConImpulso(double W, double H, double& impulso) {
 
     return choco;
 }
+
 
