@@ -1,8 +1,11 @@
 /**
- * @file    caja.cpp
- * @brief   Implementacion de POO para Dinámica Molecular con LJ (PBC + Virial)
+ * @file     caja.cpp
+ * @brief    simulacion de caja para contener bolas con potencial de Lennard-Jones
+ * @author   Angie Gomez, Leonardo Tovar
+ * @date     02/12/25
+ * @version  1.0
+ * @license  owner
  */
-
 #include "Caja.h"
 #include <random>
 #include <iostream>
@@ -209,4 +212,5 @@ void Caja::setParametrosLJ(double s, double e, double rc) {
         double s6_r6 = s6 * r6_inv;
         U_rcut = 4.0 * epsilon * (s6_r6*s6_r6 - s6_r6);
     } else U_rcut = 0.0;
+
 }
