@@ -2,7 +2,7 @@
  * @file     main.cpp
  * @brief    simulacion de gas con potencial de Lennard-Jones y Velocity-Verlet
  * @author   Angie Gomez, Leonardo Tovar
- * @date     29/10/25
+ * @date     02/12/25
  * @version  1.0
  * @license  owner
  */
@@ -90,3 +90,4 @@ int main() {
     return 0;
 
 }
+
