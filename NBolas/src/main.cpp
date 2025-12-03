@@ -1,3 +1,11 @@
+/**
+ * @file     main.cpp
+ * @brief    simulacion de gas con potencial de Lennard-Jones y Velocity-Verlet
+ * @author   Angie Gomez, Leonardo Tovar
+ * @date     29/10/25
+ * @version  1.0
+ * @license  owner
+ */
 #include <iostream>
 #include <fstream>
 #include <iomanip>
@@ -80,4 +88,5 @@ int main() {
     if (ret != 0) std::system("python3 scripts/graficas_animacion.py");
 
     return 0;
+
 }
