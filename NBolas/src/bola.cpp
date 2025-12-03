@@ -1,6 +1,6 @@
 /**
  * @file     bola.cpp
- * @brief    implementacion de poo en gas ideal
+ * @brief    simulacion de Bola en caja con Velocity Verlet
  * @author   Angie Gomez, Leonardo Tovar
  * @date     29/10/25
  * @version  1.0
@@ -154,3 +154,4 @@ bool Bola::reboteParedConImpulso(double W, double H, double& impulso) {
 
     return choco;
 }
+
